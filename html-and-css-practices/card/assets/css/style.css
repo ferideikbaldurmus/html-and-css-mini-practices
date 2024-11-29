@@ -1,0 +1,67 @@
+body {
+    background-color: grey;
+}
+
+.card {
+    width: 376px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(rgba(72, 49, 157, 0.2), rgba(72, 49, 157, 0));
+    background-position: 100px 195px;
+    border-top: 0.1px solid rgba(255, 255, 255, 0.8);
+    border-left: 0.1px solid rgba(255, 255, 255, 0.8);
+    border-right: 0.1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 1px rgba(255, 255, 255, 0.8); /* Burası mantıksız oldu, orjinal tasarımda bu kısmın ne olduğunu anlayamadım. */
+}
+
+.card img {
+    width: 375px; /* border taştığı için 376px olan resim boyutunu 375'e düşürdüm. */
+    height: 208px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.under-part img {
+    width: 40px;
+    height: 40px;
+    margin: 16px;
+}
+
+.under-part {
+    width: 340px; /* orjinal değer 293px, font-weight fazla sığmadığı için değiştirdim. */
+    height: 63px;
+    font-weight: 700;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: -0.32px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subparagraph {
+    width: 143px;
+    height: 44px;
+    font-family: 'SF Pro Display', sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    margin-left: 73px;
+}
+
+.subparagraph p:first-of-type {
+    width: 77px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.subparagraph p:last-of-type {
+    width: 143px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 1px;
+}
